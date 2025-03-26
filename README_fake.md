@@ -2,13 +2,29 @@
 
 ## Frontend qlsb system
 
-Sẽ bổ sung sau
-
 ## Nháp
 
 **NNQ**
 
 *Nguyen Nhat Quang*
+
+- a
+- b
+- c
+
+1. A
+2. B
+3. C
+
+[Youtube](https://www.youtube.com)
+
+Đây là `chim` trong lồng
+
+Chim|Rank|
+|---|----|
+|Rặt rặt|SSS|
+
+> Đây là một trích dẫn
 
 ## Kiến trúc của Git
 
@@ -29,15 +45,17 @@ Local repository chứa 3 vùng chính:
 #### b. Remote Repository
 
 - Được lưu trên một máy chủ trung tâm (GitHub, GitLab, Bitbucket, hoặc một Git server riêng).
-- Dùng để đồng bộ code giữa nhiều developer thông qua `git push` và `git pull`.
+- Dùng để đồng bộ code giữa nhiều developer thông qua git push và git pull.
 
-### 2. Objects Database (Cơ sở dữ liệu đối tượng)
+2. Objects Database (Cơ sở dữ liệu đối tượng)
+Git lưu trữ dữ liệu dưới dạng objects (đối tượng) thay vì lưu trữ từng file riêng lẻ. Các loại objects quan trọng gồm:
 
-Git lưu trữ dữ liệu dưới dạng **objects** (đối tượng) thay vì lưu trữ từng file riêng lẻ. Các loại objects quan trọng gồm:
-- **Blob (Binary Large Object)**: Lưu trữ nội dung file.
-- **Tree**: Lưu trữ cấu trúc thư mục.
-- **Commit**: Ghi lại trạng thái của project tại một thời điểm, liên kết với tree.
-- **Tag**: Đánh dấu một commit quan trọng (ví dụ: phiên bản release).
+Blob (Binary Large Object): Lưu trữ nội dung file.
 
-Git sử dụng **SHA-1 Hash** để định danh từng object.
+Tree: Lưu trữ cấu trúc thư mục.
 
+Commit: Ghi lại trạng thái của project tại một thời điểm, liên kết với tree.
+
+Tag: Đánh dấu một commit quan trọng (ví dụ: phiên bản release).
+
+Git sử dụng SHA-1 Hash để định danh từng object.
