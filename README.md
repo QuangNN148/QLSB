@@ -1,14 +1,14 @@
 # QLSB
-##Frontend qlsb system
---NNQ--
--Nguyen Nhat Quang-
--a
--b
--c
+## Frontend qlsb system
+-- NNQ --
+- Nguyen Nhat Quang -
+- a
+- b
+- c
 
-1.A
-2.B
-3.C
+1. A
+2. B
+3. C
 
 [Youtube](https://www.youtube.com)
 
