@@ -1,7 +1,10 @@
 # QLSB
 ## Frontend qlsb system
--- NNQ --
-- Nguyen Nhat Quang -
+
+**NNQ**
+
+*Nguyen Nhat Quang*
+
 - a
 - b
 - c
