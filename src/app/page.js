@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
-    <div>
+    <div className={inter.className}>
       <h1>Chào mừng đến trang chủ!</h1>,
       <Image
         src={profilePic} // Ảnh đã import
