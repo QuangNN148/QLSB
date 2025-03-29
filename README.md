@@ -41,3 +41,27 @@ Git lưu trữ dữ liệu dưới dạng **objects** (đối tượng) thay vì
 
 Git sử dụng **SHA-1 Hash** để định danh từng object.
 
+## Phân biệt Page Route và App Route
+Cách hoạt động:
+* Dựa trên thư mục app/ thay vì pages/. Cấu trúc thư mục trong app/ xác định các route (ví dụ: app/about/page.js ánh xạ thành /about).
+* Hỗ trợ các tính năng mới như **Layouts** (thông qua layout.js), **Loading UI** (loading.js), **Error Handling** (error.js), và **Route Groups** (dùng () trong tên thư mục để nhóm mà không ảnh hưởng URL).
+* Không còn pages/api/ mà thay bằng **Route Handlers** (dùng route.js trong app/ để xử lý API).
+- Server-side Rendering (SSR) và Static Site Generation (SSG):
+* Tích hợp **React Server Components** (mặc định) để render phía server hiệu quả hơn.
+* Dữ liệu được lấy bằng cách sử dụng *async/await* trực tiếp trong component, thay vì các hàm riêng như *getServerSideProps*
+
+1. Page Route
+* Ưu điểm:
+- Đơn giản, dễ hiểu, đặc biệt với các dự án nhỏ hoặc người mới bắt đầu.
+- Tương thích ngược với các dự án cũ.
+* Nhược điểm:
+- Thiếu sự linh hoạt trong việc quản lý bố cục (layout) chung cho nhiều trang.
+- Không tận dụng tối đa các tính năng hiện đại của React như React Server Components.
+2. App Route
+* Ưu  điểm:
+- Linh hoạt hơn với hệ thống layout lồng nhau (nested layouts).
+- Tận dụng tối đa các tính năng hiện đại của React, như Server Components, giúp cải thiện hiệu suất.
+- Hỗ trợ tốt hơn cho các ứng dụng phức tạp.
+* Nhược điểm:
+- Phức tạp hơn Page Router, đòi hỏi thời gian làm quen.
+- Một số tính năng cũ (như getServerSideProps) không khả dụng, buộc phải chuyển đổi cách viết code.
