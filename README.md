@@ -140,21 +140,21 @@ Tính năng chính:
 * Hỗ trợ React Server Components: (từ Next.js 13) cho phép render phía server hiệu quả hơn.
 
 Tiêu chí|React|Next.js
-|-|-|-|
+
 Loại|Thư viện (library)|Framework (dựa trên React)
-|-|-|-|
+
 Định tuyến|Không có, cần thêm React Router|Tích hợp sẵn (file-based)
-|-|-|-|
+
 Rendering|Client-side Rendering (CSR)|Hỗ trợ CSR, SSR, SSG
-|-|-|-|
+
 API|Không có, cần backend riêng|Tích hợp API Routes
-|-|-|-|
+
 SEO|Yếu (vì CSR)|Tốt (nhờ SSR và SSG)
-|-|-|-|
+
 Cấu hình|Cần tự setup (Webpack, Babel)|Tích hợp sẵn, ít cấu hình
-|-|-|-|
+
 Hiệu suất|Tùy thuộc cách triển khai|Tối ưu hóa tự động
-|-|-|-|
+
 Độ phức tạp|Linh hoạt nhưng cần nhiều công cụ|Dễ dùng hơn cho ứng dụng hoàn chỉnh
-|-|-|-|
+
 Ứng dụng phù hợp|SPA đơn giản, linh hoạt|Web phức tạp, cần SEO, SSR
