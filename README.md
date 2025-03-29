@@ -140,6 +140,7 @@ Tính năng chính:
 * Hỗ trợ React Server Components: (từ Next.js 13) cho phép render phía server hiệu quả hơn.
 
 |Tiêu chí|React|Next.js|
+|--------|-----|-------|
 |Loại|Thư viện (library)|Framework (dựa trên React)|
 |Định tuyến|Không có, cần thêm React Router|Tích hợp sẵn (file-based)|
 |Rendering|Client-side Rendering (CSR)|Hỗ trợ CSR, SSR, SSG|
